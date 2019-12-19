@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Starter kit for authoring node.js modules by using typescripts",
   "scripts": {
-    "preinstall:": "node preInstall",
+    "preinstall": "node preInstall",
     "prestart": "yarn build",
-    "start": "node dist/app.server.js",
-    "dev": "yarn dev:bee & yarn dev:fee",
-    "watch:bee": "nodemon --watch dist/app.server.js dist/app.server.js",
+    "dev": "tsc -w",
     "prebuild": "rimraf dist",
     "build": "tsc",
     "test": "jest --passWithNoTests",
