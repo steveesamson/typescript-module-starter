@@ -7,7 +7,6 @@ coverage
 .gitignore
 .npmignore
 jest.config.js
-package.json
 preInstall.js
 .tsconfig.json
 

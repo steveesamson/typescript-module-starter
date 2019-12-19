@@ -5,7 +5,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index",
+  "main": "dist/index.js",
   "types": "dist",
   "scripts": {
     "preinstall": "node preInstall",
