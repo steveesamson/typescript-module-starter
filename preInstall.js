@@ -5,7 +5,7 @@ const fs = require("fs"),
 const name = path.basename(__dirname);
 
 pkg.name = name;
-pkg.description = "";
+pkg.description = `${name} descriptions.`;
 delete pkg.repository;
 delete pkg.author;
 delete pkg.homepage;
@@ -20,6 +20,6 @@ fs.writeFile(
   JSON.stringify(pkg, null, 4),
   "utf8",
   () => {
-    fs.unlink(__dirname + "/prepInstall.js", () => {});
+    fs.unlink(__dirname + "/preInstall.js", () => {});
   }
 );

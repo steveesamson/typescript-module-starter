@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "declaration": false,
+    "declaration": true,
     "module": "commonjs",
     "noImplicitAny": true,
     "target": "es5",
     "strict": true,
-    "outDir": "./dist"
+    "outDir": "dist"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts"]

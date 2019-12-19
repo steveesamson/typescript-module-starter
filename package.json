@@ -2,6 +2,11 @@
   "name": "typescript-module-starter",
   "version": "1.0.0",
   "description": "Starter kit for authoring node.js modules by using typescripts",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index",
+  "types": "dist",
   "scripts": {
     "preinstall": "node preInstall",
     "prestart": "yarn build",
