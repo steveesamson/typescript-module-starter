@@ -1,0 +1,20 @@
+#tests
+test
+coverage
+
+#build tools
+.travis.yml
+.gitignore
+.npmignore
+jest.config.js
+package.json
+preInstall.js
+.tsconfig.json
+
+#linters
+.eslintrc*
+
+#editor settings
+.editor.config
+.vscode
+.env
