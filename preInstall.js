@@ -19,6 +19,6 @@ fs.writeFile(
   JSON.stringify(pkg, null, 4),
   "utf8",
   () => {
-    fs.unlink(__dirname + "/preproject.js", () => {});
+    fs.unlink(__dirname + "/preInstall.js", () => {});
   }
 );
